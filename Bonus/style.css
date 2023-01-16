@@ -1,0 +1,66 @@
+/* general */
+html { box-sizing: border-box;}
+*, *:before, *:after { box-sizing: inherit; }
+
+/* clearfix */
+.gule:before
+.gule:after {
+    content: " ";
+    display: table;
+}
+
+.gule:after {
+    clear: both;
+}
+
+body {
+    color: #fff;
+    font: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: blanchedalmond;
+    padding: 0 20px;
+    
+}
+
+/* layout */
+.gule {
+    margin: 30px auto;
+    max-width: 800px;   
+    height: 650px;
+}
+
+p {
+    padding: 0 33px;
+}
+
+article, .box {
+    border-radius: 8px;
+}
+
+article {
+    background: #3b9ae1;
+    margin-right: 20px;
+    width: 530px;
+    height: 200px;
+    float: left;
+}
+
+.box {
+    background: #e64134;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 200px;
+}
+
+.sidebar {
+    float: right;
+    height: 200px;
+
+}
+
+footer {
+    color: aqua;
+    width: 530px;
+    position: left top;
+    margin: 50px 333px;
+}

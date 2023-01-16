@@ -1,0 +1,167 @@
+body {
+    color: #676d79;
+    background:#282b34 ;
+    margin: 0;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+/* clearfix */
+.group:before,
+.group:after {
+    content: " ";
+    display: table;
+}
+
+.group:after {
+    clear: both;
+}
+
+article {
+    margin-bottom: 70px;
+}
+
+article .container{
+    border-bottom: 1px solid #33343e;
+    padding: 60px;
+}
+
+article h1 {
+    color: #fff;
+    font-size: 33px;
+}
+
+article p {
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 34px;
+    letter-spacing: 1.5px;
+    margin-bottom: 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.pull-left {
+    float: left;
+}
+
+form {
+    width: 620px;
+}
+
+
+
+::placeholder {
+    font-style: italic;
+    color: #21324d;
+}
+
+input, 
+textarea {
+    color: #192538;
+    font-size: inherit;
+    font-family: inherit;
+    letter-spacing: 0.5px;
+    padding: 14px 17px;
+    background: #ccc;
+    border: none;
+    border-radius: 6px;
+    width: 240px;
+    margin-right: 20px;
+    margin-bottom: 24px;
+}
+
+textarea {
+    width: 537px;
+    height: 150px;
+    margin-bottom: 18px;
+}
+
+.button {
+    background:#e97770;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    width: 180px;
+    padding-top: 23px;
+    padding-bottom: 22px;
+    cursor: pointer;
+}
+
+.alt {
+    color: #aaa;
+    background: transparent;
+    box-shadow: inset 0px 0px 2px 0px rgba(255,255,255,0.5);
+}
+
+.features section:first-child {
+    margin-right: 40px;
+}
+
+.features .group:last-child section {
+	border: none;
+}
+
+.features section {
+    float: left;
+    width: 270px;
+    border-bottom: 1px solid #33343e;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+
+.features h3 {
+    color:#e97770;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 35px;
+    margin-bottom: 15px;
+    margin-top: 0;
+   
+}
+
+.features h3::before {
+    color: #fff;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: normal;
+    font-family: FontAwesome;
+    display: inline-block;
+    height: 45px;
+    width: 45px;
+    margin-right: 24px;
+    position: relative;
+    left: 10px;
+    background: #2f333b;
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+
+.features p {
+    color:rgba(255, 255, 255, 0.498039);
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    margin: 0 0 0 70px;
+    font-size: 17px;
+}
+
+p a {
+    color: #fff;
+}

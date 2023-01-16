@@ -1,0 +1,63 @@
+body {
+    width: 600px;
+    padding: 50px;
+    background: white(255, 255, 255);
+
+}
+
+h1, h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+.important {
+    color: rgb(95, 243, 243);
+}
+h1 {
+    color: rgb(95, 243, 243);
+    font-size: 42px;
+}
+
+h2 {
+    color: darkcyan;
+    font-size: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(2, 9, 12);
+}
+
+p {
+    color: rgb(49, 92, 90);
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 26px;
+}
+
+#main-guy {
+color: darkcyan;
+
+}
+
+.controls {
+    text-align: center;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 6px 12px;
+    background: #ccc;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-success {
+    color: #fff;
+    background: #5cb85c;
+    border: 1px solid #4cae4c;
+}
+
+.btn-danger {
+    color: #fff;
+    background: #b85c5c;
+    border: 1px solid #ae4c88;
+}

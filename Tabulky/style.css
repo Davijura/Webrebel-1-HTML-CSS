@@ -1,0 +1,38 @@
+body {
+color: #444;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: #eee;
+padding: 0 20px 20px 20px; 
+}
+
+h1 {
+margin-bottom: 20px;
+}
+
+
+table {
+border-collapse: collapse;
+border-spacing: 10px;
+background: #34495E;
+color: #fff;
+border-radius: 8px;
+}
+
+th, td {
+padding: 16px 18px;
+border-bottom: 1px solid #46627f;
+}
+
+th tfoot td{
+    color: #dd5;
+    text-align: left;
+    font-weight: bold;
+}
+
+tfoot td {
+    text-align: right;
+}
+
+tr:last-child td {
+    border: none;
+}

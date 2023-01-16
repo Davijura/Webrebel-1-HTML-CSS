@@ -1,0 +1,308 @@
+/*General*/
+body {
+  color: #323232;
+  background: #eeefed;
+  font-family: sans-serif;
+  -webkit-font-smoothing:antialiased; 
+}
+
+.container:before,
+.group:before,
+.menu:before,
+.container:after,
+.group:after,
+.menu:after {
+  content: " ";
+  display: table;
+}
+
+.container:after,
+.group:after,
+.menu:after {
+  clear: both;
+}
+
+.container,
+.group,s
+.menu {
+  *zoom: 1;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.menu {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.menu li {
+  float: left;
+}
+
+.fa-solid {
+  vertical-align: middle;
+}
+
+.container  {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/*Contact*/
+.contact-bar,
+.personal a {
+  color: #fff;
+}
+
+
+.contact-bar {
+  background: #39a3d4;
+  height: 84px;
+  font-size: 14px;
+}
+
+.personal {
+  margin-top: 29px;
+  float: left;
+}
+
+.social {
+  float: right;
+  margin-top: 18px;
+}
+
+.personal li {
+  margin-right: 70px;
+}
+
+.personal .fa {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.social .fa {
+  font-size: 25px;
+}
+
+.social-icon {
+  display: block;
+  width: 48px;
+  height: 48px;
+  line-height: 58px;
+  
+  color: #989898;
+  background: #eeefed;
+  text-align: center;
+
+  border-radius: 2px;
+  margin-left: 2px;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  color: #fff;
+  background: #5bd0ec;
+}
+
+/*Navigation*/
+.nav-bar {
+  background: #f2f2f2;
+}
+
+.logo {
+  float: left;
+}
+
+.logo a {
+  display: block;
+  background: url(./img/logo.png) 0 0 no-repeat;
+  width: 186px;
+  height: 31px;
+  text-indent: -9999px;
+  margin-top: 30px;
+}
+
+.navigation {
+  float: right;
+}
+
+.navigation .fa {
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 34px;
+}
+
+.navigation li {
+  border-left: 1px solid #cecece;
+}
+
+.navigation li:last-child {
+  border-right: 1px solid #cecece;
+}
+
+.navigation a {
+  color: #a6a6a6;
+  display: block;
+  width:136px;
+  height: 120px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.selected a,
+.navigation a:hover,
+.navigation a:focus {
+  color: #de5728;
+}
+
+/* ARTICLE */
+.text-center {
+  text-align: center;
+}
+
+.post-header {
+  height: 166px;
+  background: url(./img/cover.jpg) center -200px no-repeat; 
+}
+
+.post-title {
+  color: #fff;
+  font-size: 45px;
+  font-weight: 600px;
+  background: #de5728;
+  padding: 18px 46px;
+  border-radius: 7px;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  margin-top: 38px;
+}
+
+.post-content {
+  padding-bottom: 150px;
+}
+
+.post-content h2{
+  color: #323232;
+  font-weight: 400px;
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.controls {
+  width: 642px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.controls a {
+  font-size: 17px;
+  font-weight: 300px;
+  color: #39a3d4;
+  text-transform: uppercase;
+  padding: 0 25px;
+  line-height: 48px;
+  display: block;
+}
+
+.controls a:hover,
+.controls a:focus,
+.controls .selected a {
+  color: #fff;
+  background: #39a3d4;
+  border-radius: 4px;
+}
+
+.gallery {
+  font-size: 0;
+}
+
+/* FOOTER */
+.pre-footer {
+  color: #fff;
+  background: #323232;
+  text-align: center;
+}
+
+.pre-footer .container {
+  width: 400px;
+  padding: 40px 0 60px 0;
+}
+
+.pre-footer p {
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 26px;
+}
+
+.pre-footer strong {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.pre-footer .personal li {
+  margin-right: 0;
+}
+
+.pre-footer .personal li:first-child {
+  margin-right: 47px;
+}
+
+footer {
+  font-size: 14px;
+}
+
+footer .container {
+  background: url(./img/logo.png) left center no-repeat;
+}
+
+footer p {
+  color: #a6a6a6;
+  float: left;
+  padding-left: 200px;
+}
+
+footer p a {
+  color: #e75652;
+  font-weight: 600;
+}
+
+footer p,
+footer .menu {
+  margin: 32px 0 32px 0;
+}
+
+footer .menu {
+  color: #989898;
+  font-weight: 600;
+  text-transform: uppercase;
+  float: right;
+}
+
+footer .menu a {
+  color: #989898;
+}
+
+footer .menu a:hover,
+footer .menu a:focus {
+  text-decoration: underline;
+}
+
+
+footer li:after {
+  content: "/";
+  color: #989898;
+  margin: 0 5px;
+}
+
+footer li:last-child:afer{
+  content: "";
+}

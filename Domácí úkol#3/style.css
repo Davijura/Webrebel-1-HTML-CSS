@@ -1,0 +1,231 @@
+body {
+    font-family:'Source Sans Pro', sans-serif;
+    background-color: #f7f7f7;  
+    line-height: 30px;
+    font-weight: 300;
+    margin: 0;
+    display: block;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+header {
+    background-color: #fff;
+}
+
+.site-header {
+    text-align: center;
+    color: #5D5D5D;
+    border-bottom: 1px solid;
+    padding: 60px ;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.site-header h1 {
+    color: black;
+}
+.container {
+    font-size: 25px;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.navigace {
+    font-size: 20px;
+    padding-bottom: 15px;
+    
+}
+.nav {
+    display: inline-block;      
+}
+
+a {
+    text-decoration: none;
+    color: #5D5D5D;
+    font-style: italic; 
+    font-size: 16px;
+    padding: 10px 19px;
+}
+
+main {
+    padding: 70px 0;
+    height: 1170px;
+}
+
+.post-header img {
+    width: 740px;
+    height: auto;
+    display: block;
+}
+
+.main {
+    background: #fff;
+}
+
+.content-box {
+    background: #fff;
+    width: 740px;
+    margin-right: 40px;
+    
+}
+
+.content-box, .sidebar {
+    float: left;
+    
+}
+
+.box {
+    background: white;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 40px;
+
+}
+
+article {
+    display: block;
+    
+}
+
+p {
+    display: block;
+    color: #5D5D5D;
+    
+}
+
+.text {
+    padding: 30px;
+}
+
+.text p {
+    width: auto;
+    font-size: 17px;
+}
+
+h6 {
+    font-style: italic;
+    color: #5D5D5D; 
+}
+
+.text h1 {
+    font-size: 32px;
+    margin-top: 15px;;
+}
+
+.text h2 {
+    font-size: 25px;
+    
+
+}
+
+.sidebar {
+    width: 340px;    
+}
+
+.content, .sidebar {
+    float: left;
+}
+
+
+
+aside { 
+    display: block;
+}
+
+
+.sidebar-header img {
+    width: 340px;
+    height: auto;
+    border: 0;  
+}
+
+.button {
+    color: #fff;
+    font-weight: 700px;
+    background: #252122;;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 12px 28px;
+}
+
+
+
+
+.pre-footer {
+    color: #858484;
+    padding: 60px 0;
+    background: #252122;
+    height: 380px;
+}
+
+.column {
+    float: left;
+    font-size: 17px;
+    width: 340px;
+    margin-right: 40px;  
+   
+}
+
+
+.column img {
+    width: 100%;
+    height: auto;
+    border: 0;
+
+}
+
+.column h2 {
+    color: #e3e3e3;
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.column:last-child {
+    margin-right: 0;
+    float: left;
+}
+
+.about {
+    width: 700px;
+    margin: 60px auto;
+}
+
+.about > h3 {
+    text-align: center;
+}
+
+.about h3 {
+    font-size: 18px;
+}
+
+.photo img {
+    border-radius: 50%;
+    border: 10px solid #eee;
+    margin-top: 10px;
+}
+
+.photo {
+    float: left;
+}
+
+.byline {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.byline h3 {
+    margin-left: 160px;
+    font-style: normal;
+}
+
+.inside a {
+    font-size: 20px;
+    padding-left: 1px;
+}
+
+strong {
+    color: violet;
+    font-weight: bold;
+}

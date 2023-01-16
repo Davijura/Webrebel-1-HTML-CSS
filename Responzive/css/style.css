@@ -1,0 +1,491 @@
+body,
+html {
+	margin: 0;
+}
+
+body {
+	color: #222;
+	font: 18px/30px Georgia, serif;
+	width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+::-moz-selection{ background: #ddd; color: #000; text-shadow: none; }
+::selection{ background: #ddd; color: #000; text-shadow: none; }
+
+h1, h2, h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+}
+
+h1, h2, h3, .pullquote {
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: #2455c3;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus {
+	text-decoration: underline;
+}
+
+p {
+	margin: 0 0 24px;
+}
+
+.logo {
+	margin: 0;
+	position: relative;
+	top: -7px;
+	z-index: 2;
+}
+
+.logo a {
+	background: url('../img/logo.png') left top no-repeat;
+	display: block;
+	width: 960px;
+	height: 105px;
+	text-indent: -9999px;
+}
+
+.cover {
+	background: #fff url('../img/background.jpg') 50% 0px no-repeat;
+	height: 470px;
+	margin-top: -105px;	
+	position: relative;
+	z-index: 1;
+}
+
+
+/* badges */
+.badge {
+	background: #bb3825;
+	background: rgba(187, 56, 37, 0.9);
+	
+	display: block;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	
+	color: #fff;
+	font-size: 54px;
+	line-height: 40px;
+	font-weight: 800;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: -2px;
+	text-align: center;
+
+	position: absolute;
+	bottom: 20px;
+	right: -10px;
+}
+
+.badge small {
+	font-size: 16px;
+	line-height: 16px;
+	font-style: italic;
+	font-weight: normal;
+	font-family: Georgia, serif;
+	letter-spacing: 0;
+	display: block;
+	padding-top: 28px;
+}
+
+.badge:hover, 
+.badge:focus {
+	text-decoration: none;
+}
+
+
+/* post header */
+.post-header {
+	text-align: center;
+}
+
+.post-title {
+	font-size: 48px;
+	line-height: 56px;
+	letter-spacing: -2px;
+	margin: 0 0 5px;
+}
+
+.post-meta {
+	font-style: italic;
+}
+
+.author {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+	margin: 0 3px;
+}
+
+time {
+	white-space: nowrap;
+}
+
+.post-meta time:before {
+	content: ' · ';
+	font-style: normal;
+}
+
+
+/* main text */
+.post-content p,
+.post-content h2,
+.post-content h3 {
+	margin-left: 130px;
+	margin-right: 130px;
+}
+
+.post-content h2 {
+	font-size: 24px;
+	line-height: 30px;
+	color: #bb3825;
+	margin-top: 36px;
+	margin-bottom: 12px;
+}
+
+.post-content h3 {
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+.post-content p:first-child {
+	font-size: 24px;
+	line-height: 36px;		
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+/* pullquotes */
+.pullquote {
+	color: #787878;
+	max-width: 300px;
+}
+
+.pullquote q {
+	font-size: 24px;
+	font-style: italic;
+	line-height: 36px;
+}
+
+.pullquote ul, 
+.pullquote ol { 
+	list-style: none;
+	padding-left: 0;
+}
+
+.pullquote li {
+	border-bottom: 1px dotted #aaa;
+	padding: 2px 10px;
+}
+
+.pullquote li:last-child {
+	border: none;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.pullquote.float-left {
+	margin: 24px 34px 24px 0;
+}
+
+.pullquote.float-right {
+	margin: 24px 0 24px 34px;
+}
+
+
+/* about the author */
+.post-footer {
+	width: 700px;
+	margin: 60px auto;
+}
+
+.post-footer h3 {
+	font-size: 18px;
+}
+
+.post-footer > h3 {
+	text-align: center;
+}
+
+.byline {
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.byline h3,
+.byline p {
+	margin-left: 160px;
+}
+
+.byline h3 a {
+	color: #222;
+}
+
+.photo {
+	float: left;
+}
+
+.photo img {
+	border-radius: 50%;
+	border: 10px solid #eee;
+	margin-top: 10px;
+}
+
+
+/* pre-footer */
+.pre-footer {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.reviews {
+	overflow: hidden;
+	list-style: none;
+	padding-left: 0;
+}
+
+.reviews li {
+	font-size: 14px;
+	line-height: 24px;
+	
+	float: left;
+	width: 220px;
+	
+	margin-left: 10px;
+	margin-right: 10px;
+
+	position: relative;
+}
+
+.reviews li:before {
+	content: '“';
+	color: #bb3825;
+	font-size: 60px;
+	font-style: italic;
+	position: absolute;
+	left: 0;
+	top: 20px;
+}
+
+.reviews blockquote {
+	font-style: italic;
+}
+
+.review-byline {
+	font-weight: bold;
+	padding-left: 30px;
+	margin-bottom: 8px;
+}
+
+.review-byline:before {
+	content: '- ';
+	color: #bb3825;
+}
+
+
+/* footer */
+.global-footer {
+	color: #787878;
+	font-size: 14px;
+	text-align: right;
+	padding: 15px 10px;
+}
+
+/* ADAPTIVE */
+ @media screen and ( max-width: 1000px ) {
+
+	body {
+		width: 100%;
+		padding: 0;
+	}
+
+	.logo a {
+		width: 100%;
+		background-position: -180px 0px;
+	}
+
+	.cover {
+		margin-top: -105px;
+	}
+
+	.badge {
+		right: 20px
+	}
+
+
+	article {
+		padding-left: 0.35px;
+		padding-right: 0.35px;
+
+	}
+	
+	.post-content p,
+	.post-content h2,
+	.post-content h3 {
+		margin-right: 0;
+		margin-left: 0;
+	}
+	
+	.reviews {
+		margin-left: 50px;
+		margin-bottom: 0;
+		text-align: center;
+	}
+
+	.reviews li {
+		float: none;
+		vertical-align: top;
+		display: inline-block;
+		min-height: 150px;
+		text-align: left;
+
+		
+		width: 40%;
+	}
+
+}
+
+ @media screen and ( max-width: 800px ) {
+
+	.logo {
+		top: -7px;
+	}
+
+	.logo a {
+		color: #222;
+		background: none;
+		text-indent: 0;
+		text-decoration: none;
+		font-size: 96px;
+		line-height: 76px;
+		letter-spacing: -9px;
+		text-align: center;
+	}
+
+	.cover {
+		background-position: 80% 0;
+	}
+ 
+	.post-footer {
+		width: 100%;
+		text-align: center;
+	}
+
+	.photo {
+		float: none;
+	}
+
+	.post-footer > h3 {
+		display: none;
+	}
+
+	.post-footer h3,
+	.post-footer p {
+		margin-left: 0;
+	}
+
+	.global-footer {
+		text-align: center;
+	}
+
+}
+
+ @media screen and ( max-width: 720px ) {
+	.pullquote.float-left,
+	.pullquote.float-right {
+		float: none;
+		margin-left: 0;
+		margin-right: 0;
+		max-width: none;
+		text-align: center;
+		padding: 25px 0;
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.pullquote li {
+		border: none;
+	}
+
+	.pullquote ul {
+		margin-bottom: 0;
+	}
+
+	.reviews {
+		margin-left: 0;
+	}
+
+	.reviews li {
+		display: block;
+		width: 100%;
+		min-height: 0;
+		text-align: center;
+		margin: 0 0 30px 0;
+	}
+
+
+	.reviews blockquote {
+		margin-bottom: 0px;
+	}
+
+	.review-byline {
+		margin-left: 0;
+	}
+
+	.reviews li:before,
+	.review-byline:before{
+		display: none;
+	}
+
+ }
+
+
+
+ @media screen and ( max-width: 600px ) {
+	.post-meta time {
+		display: block;
+	}
+
+	.written-by,
+	.post-meta time:before {
+		display: none;
+	}
+ 
+}
+
+
+ @media screen and ( max-width: 480px ) {
+	
+	.logo {
+		top: 10px;
+	}
+
+	.logo a{
+	font-size: 86px;
+	line-height: 66px;
+}
+
+	article {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+}
+

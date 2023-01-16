@@ -1,0 +1,46 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    margin: 0;
+    position: relative;
+    top: -7px;
+}
+
+.logo a {
+    background: url(./img/logo.webp) 50% 0 no-repeat;
+    display: block;
+    width: auto;
+    height: 105px;
+    text-indent: -9999px;
+    
+}
+
+.cover {
+    background: url(./img/background.webp) 50% 0 no-repeat;
+    height: 960px;
+    max-width: 100%;
+    margin-top: 71px;
+    padding-bottom: 87px;     
+}
+
+.cover a {
+    height: auto;
+    max-width: 100%;
+}
+
+
+.post-header {
+    text-align: center;
+}
+
+.post-title {
+    font-size: 48px;
+    line-height: 56px;
+    font-family:'Open Sans', sans-serif;
+    font-weight: 800;
+    letter-spacing: -2px;
+    margin: 0;
+}
